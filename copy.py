@@ -5,7 +5,7 @@ import os
 
 def main():
     if len(sys.argv) != 2:
-        print 'usage) copy.py <new_name>'
+        print('usage) copy.py <new_name>')
         exit(1)
     
     new_name = sys.argv[1]
